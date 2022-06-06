@@ -1,0 +1,19 @@
+{
+  "name": "comp229.004-sheinahaboc",
+  "version": "1.0.0",
+  "description": "Codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheiniee/COMP229.004-SheinaHaboc.git"
+  },
+  "author": "Sheina Haboc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sheiniee/COMP229.004-SheinaHaboc/issues"
+  },
+  "homepage": "https://github.com/sheiniee/COMP229.004-SheinaHaboc#readme"
+}
