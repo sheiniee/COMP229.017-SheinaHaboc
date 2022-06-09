@@ -1,14 +1,23 @@
 const express = require('express');
 const app = express();
+const port = 3000;
 
-app.get('/', function (req, res){
-    res.send('Home Page')
-})
+// Routers
+app.get('/', homepage) 
+app.get('/Sheina', aboutMe) 
+app.get('/Projects', myProjects)
 
-app.get('/Sheina', helloWorld) 
+//Controllers
+function homepage(req, res) {
+    res.send('Welcome to my HomePage')
+}
 
-function helloWorld(req, res){
-    res.send('Hello World')
+function aboutMe(req, res){
+    res.send('About Me')
+}
+
+function myProjects(req, res){
+    res.send('My Projects')
 }
 
 // runs
